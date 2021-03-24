@@ -1,0 +1,79 @@
+<DataSet xmlns="http://MRCS/">
+<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="Estacoes">
+<xs:element name="Estacoes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+<xs:complexType>
+<xs:choice minOccurs="0" maxOccurs="unbounded">
+<xs:element name="Table">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="NomeEstacao" type="xs:string" minOccurs="0"/>
+<xs:element name="CodEstacao" type="xs:string" minOccurs="0"/>
+<xs:element name="Bacia" type="xs:string" minOccurs="0"/>
+<xs:element name="SubBacia" type="xs:decimal" minOccurs="0"/>
+<xs:element name="Operadora" type="xs:string" minOccurs="0"/>
+<xs:element name="Responsavel" type="xs:string" minOccurs="0"/>
+<xs:element name="Municipio-UF" type="xs:string" minOccurs="0"/>
+<xs:element name="Latitude" type="xs:decimal" minOccurs="0"/>
+<xs:element name="Longitude" type="xs:decimal" minOccurs="0"/>
+<xs:element name="Altitude" type="xs:decimal" minOccurs="0"/>
+<xs:element name="CodRio" type="xs:decimal" minOccurs="0"/>
+<xs:element name="NomeRio" type="xs:string" minOccurs="0"/>
+<xs:element name="Origem" type="xs:string" minOccurs="0"/>
+<xs:element name="StatusEstacao" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:choice>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+<Estacoes xmlns="">
+<Table diffgr:id="Table1" msdata:rowOrder="0">
+<NomeEstacao>UHE BELO MONTE BR230</NomeEstacao>
+<CodEstacao>00351004</CodEstacao>
+<Bacia>1</Bacia>
+<SubBacia>18</SubBacia>
+<Operadora>00594 - NORTE ENERGIA - Norte Energia S.A</Operadora>
+<Responsavel>00594 - NORTE ENERGIA - Norte Energia S.A</Responsavel>
+<Municipio-UF>VITÓRIA DO XINGU-PA</Municipio-UF>
+<Latitude>-3.12670</Latitude>
+<Longitude>-51.79060</Longitude>
+<Altitude>33.00</Altitude>
+<CodRio>0</CodRio>
+<NomeRio/>
+<Origem>Setor Elétrico</Origem>
+<StatusEstacao>Ativo</StatusEstacao>
+</Table>
+<Table diffgr:id="Table2" msdata:rowOrder="1">
+<NomeEstacao>UHE BELO MONTE SÍTIO PIMENTAL</NomeEstacao>
+<CodEstacao>00351005</CodEstacao>
+<Bacia>1</Bacia>
+<SubBacia>18</SubBacia>
+<Operadora>00594 - NORTE ENERGIA - Norte Energia S.A</Operadora>
+<Responsavel>00594 - NORTE ENERGIA - Norte Energia S.A</Responsavel>
+<Municipio-UF>VITÓRIA DO XINGU-PA</Municipio-UF>
+<Latitude>-3.37580</Latitude>
+<Longitude>-51.94030</Longitude>
+<Altitude>110.00</Altitude>
+<CodRio>0</CodRio>
+<NomeRio/>
+<Origem>Setor Elétrico</Origem>
+<StatusEstacao>Ativo</StatusEstacao>
+</Table>
+<Table diffgr:id="Table3" msdata:rowOrder="2">
+<NomeEstacao>UHE BELO MONTE VISTA ALEGRE</NomeEstacao>
+<CodEstacao>00352009</CodEstacao>
+<Bacia>1</Bacia>
+<SubBacia>18</SubBacia>
+<Operadora>00594 - NORTE ENERGIA - Norte Energia S.A</Operadora>
+<Responsavel>00594 - NORTE ENERGIA - Norte Energia S.A</Responsavel>
+<Municipio-UF>ALTAMIRA-PA</Municipio-UF>
+<Latitude>-3.11860</Latitude>
+<Longitude>-52.25250</Longitude>
+<Altitude>125.00</Altitude>
+<CodRio>0</CodRio>
+<NomeRio/>
+<Origem>Setor Elétrico</Origem>
+<StatusEstacao>Ativo</StatusEstacao>
+</Table>
